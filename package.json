@@ -1,0 +1,44 @@
+{
+  "name": "coverletter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "json": "json-server --watch db.json --port 8888",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.15.1",
+    "json-server": "^0.16.3",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.0",
+    "fibers": "^5.0.0",
+    "html-loader": "^2.1.2",
+    "node-sass": "^6.0.1",
+    "pug": "^3.0.2",
+    "pug-html-loader": "^1.1.5",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^10.2.0"
+  },
+  "description": "* Lovely tech stack:Nuxt , scss , pug ## Build Setup\t* 前端網址",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiayihen/youtubdRwd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiayihen/youtubdRwd/issues"
+  },
+  "homepage": "https://github.com/xiayihen/youtubdRwd#readme"
+}

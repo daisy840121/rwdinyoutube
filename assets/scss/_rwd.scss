@@ -1,0 +1,21 @@
+@mixin containerXL{
+    @media(max-width:1440px){
+        @content
+    }
+}
+@mixin containerL{
+    @media(max-width:992px){
+        @content
+    }
+}
+@mixin containerM{
+    @media(max-width:768px){
+        @content
+    }
+}
+
+@mixin containerS{
+    @media(max-width:576px){
+        @content
+    }
+}

@@ -10,6 +10,8 @@ $fontL:$fontM*1;
     justify-content: center;
     align-items: center;
     white-space: nowrap;
+    overflow: hidden;
+    
     }
     .item {
       width: 280px;
@@ -51,4 +53,6 @@ $fontL:$fontM*1;
         }
       }
     }
+
+
 

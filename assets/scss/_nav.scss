@@ -8,6 +8,7 @@
   .nav_wrap {
     @include navModel;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: -2px;
     .nav_icon {
       font-size: 25px;

@@ -7,9 +7,9 @@
           b-icon.nav_icon_burger(v-b-toggle.sidebar-1, icon="justify")
           Sideber
           img.nav_logo_img(src="logo.png")
-        li
+        li.nav_move_input_wrap
           input.search_input(type="text", placeholder="搜尋")
-        li
+        li.nav_move_wrap
           b-icon.nav_icon(icon="search") 
           img.nav_user_img(src="user.jpg")
     nav

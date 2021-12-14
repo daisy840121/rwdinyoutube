@@ -97,3 +97,30 @@ body,html {
   }
 }
 
+
+
+
+// @media #{$lg-bp}{}
+
+$md-bp: "only screen and (max-width: 767px)";
+$sm-bp: "only screen and (max-width: 576px)";
+$xs-bp: "only screen and (max-width: 360px)";
+$xxs-bp: "only screen and (max-width: 350px)";
+
+.nav_move_wrap{
+  @media #{$sm-bp}{
+    display: none;
+  }
+}
+
+.nav_move_input_wrap{
+  @media #{$sm-bp}{
+   padding-bottom: 20px;
+  }
+}
+.nav_wrap {
+  @media #{$sm-bp}{
+  width: 100%;
+  justify-content:center;
+}}
+
